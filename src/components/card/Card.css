@@ -1,0 +1,56 @@
+.card {
+  max-width: 325px;
+  height: auto;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px, rgba(0, 0, 0, 0.1) 0px 2px 6px;
+  padding: 1rem;
+  margin-bottom: 10px;
+  background-color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    max-width: 90%;
+    width: 100%;
+  }
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.id {
+  color: gray;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.info {
+  text-transform: capitalize;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  height: 25px;
+  padding-bottom: 5px;
+}
+.footer div {
+  display: flex;
+  padding: 2px 5px;
+  align-items: center;
+  color: grey;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 7px;
+  height: 100%;
+}
+
+.tag {
+  gap: 5px;
+}
